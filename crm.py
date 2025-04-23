@@ -109,10 +109,10 @@ Answer:"""
         return f"❌ Gemini error: {e}", opened_files
 
 # 7. Streamlit UI
-st.set_page_config(page_title="ASBL FAQ Bot", page_icon="🏢", layout="wide")
+st.set_page_config(page_title="ASBL CRM Bot", page_icon="🏢", layout="wide")
 
-st.markdown("<h1 style='text-align: center; color: #003566;'>🏢 ASBL Real Estate FAQ Assistant</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; font-size:18px;'>Your friendly assistant for quick real estate queries.</p>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #003566;'>👨🏻‍💼 Hi! I'm Dhruv.</h1>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size:18px;'>Your personal AI assistant for all your purchase queries at ASBL.</p>", unsafe_allow_html=True)
 
 # Sidebar
 with st.sidebar:
