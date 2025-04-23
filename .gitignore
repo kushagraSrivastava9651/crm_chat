@@ -3,3 +3,8 @@ venv/
 *.pkl
 *.faiss
 *.dylib
+venv/
+*.pyc
+__pycache__/
+.env
+.DS_Store
